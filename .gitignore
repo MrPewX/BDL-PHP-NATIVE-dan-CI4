@@ -1,0 +1,27 @@
+# Composer dependencies
+ci4/vendor/
+vendor/
+
+# CodeIgniter 4 Writable
+ci4/writable/cache/*
+!ci4/writable/cache/index.html
+ci4/writable/logs/*
+!ci4/writable/logs/index.html
+ci4/writable/session/*
+!ci4/writable/session/index.html
+ci4/writable/uploads/*
+!ci4/writable/uploads/index.html
+ci4/writable/debugbar/*
+!ci4/writable/debugbar/index.html
+
+# Environment Files
+.env
+ci4/.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
